@@ -3,9 +3,9 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function ChatScreen() {
   return (
-    <div>
-
-    </div>
+    <View>
+        <Text>Chat Screen</Text>
+    </View>
   )
 }
 
