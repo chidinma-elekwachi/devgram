@@ -1,14 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+export default function ContactScreen() {
   return (
-    <View style={styles.container}>
-      <Text>Starting Lutero messaging app</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <div>ContactScreen</div>
+  )
 }
+
 
 const styles = StyleSheet.create({
   container: {

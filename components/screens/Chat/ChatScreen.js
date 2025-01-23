@@ -1,14 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+export default function ChatScreen() {
   return (
-    <View style={styles.container}>
-      <Text>Starting Lutero messaging app</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <div>
+
+    </div>
+  )
 }
+
 
 const styles = StyleSheet.create({
   container: {
@@ -18,3 +18,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+
