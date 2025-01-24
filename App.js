@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
@@ -8,7 +7,6 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import ContactScreen from './components/screens/Contact/ContactScreen';
 import ChatScreen from './components/screens/Chat/ChatScreen';
 import SettingsScreen from './components/screens/Settings/SettingsScreen';
-import { color } from 'react-native-elements/dist/helpers';
 
 function Contact() {
   return (
